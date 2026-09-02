@@ -212,7 +212,7 @@ namespace DVLD.People
 
         private void tBFilterValue_TextChanged(object sender, EventArgs e)
         {
-            string FilterColumn = "";
+            string FilterColumn = ""; 
             //Map Selected Filter to real Column name 
             switch (cBFilterBy.SelectedIndex)
             {
